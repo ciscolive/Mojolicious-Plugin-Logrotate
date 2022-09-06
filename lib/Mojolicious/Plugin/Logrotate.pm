@@ -41,7 +41,7 @@ __END__
 
 =head1 NAME
 
-Mojolicious::Plugin::Access
+Mojolicious::Plugin::Logrotate
 
 =head1 VERSION
 

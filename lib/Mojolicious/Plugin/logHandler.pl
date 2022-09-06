@@ -30,7 +30,7 @@ sub logHandler {
   my $fileHandler = IO::File->new;
   my $cacheSize   = 1024 * 1024;
 
-  my $cache;
+  my $cache = "";
   while (1) {
     my @ready = $ioSelect->can_read(1);
     if (@ready > 0) {
